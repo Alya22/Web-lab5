@@ -1,0 +1,125 @@
+
+@media (min-width: 748px){
+    body{
+        min-width: 1080px;
+    }
+    .root__img_main{
+        width: 100%;
+    }
+}
+@media(max-width:1024){
+    .team__item{
+        width: 1024px;
+    }
+    .item__img {
+        width: 300px;
+        height: 400px;
+    }
+}
+@media(max-width:700px){
+    .root__img_main{
+        width: 100%;
+    }
+    body{
+        min-width: 1200px;
+    }
+    .team__item{
+        width: 350px;
+    }
+    .item__img {
+        width: 500px;
+        height: 600px;
+    }
+    .root__menu_top{
+        display: flex;
+        width: 100%;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center; 
+        height: 400px;
+        flex-direction: column;
+        div{
+            margin:20px;
+            margin-left: 60px;
+            margin-bottom: 5px;
+            
+        } 
+    }
+    .team__description{
+        width: 595px;
+        margin: 100px;
+        font-size: 35px;
+    }
+    .team__items-block{
+        margin: 80px 0 0 0;
+    }
+    .team__items-block{
+        flex-direction: column;
+        align-items: center;
+        width: 1000px;
+    }
+    .item__title{
+        margin-bottom: 10px;
+        font-size: 40px;
+    }
+    .item__desc{
+        margin: 20px 0 0 0px;
+        font-size: 30px;
+        margin-bottom: 80px;
+    }
+    .counter__text{
+        font-size: 25px;
+    }
+   
+    .galery__title{
+        font-size: 79px;
+        
+    }
+    .galery__desc{
+        font-size: 33px; 
+    }
+
+    .line__menu {
+        width: 100%;
+        height: 300px;
+    }
+    .menu__item a {
+        font-size: 20px;
+    }
+
+    .form {
+        // width: 370px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #email {
+        width: 345px;
+    }
+    .form > textarea {
+        width: 340px;
+        height: 100px;
+        font-size: 10pt;
+    }
+    .button {
+        width: 240px;
+        height: 70px;
+        font-size: 10pt;
+        margin-left: 0;
+        
+    }
+    .contact__title {
+        margin-top: 0px;
+        font-size: 62px;  
+    }
+    .contact__description {
+        width: 471px;
+        font-size: 22px;
+    }
+    .form > input {
+        width: 300px;
+        height: 50px;
+        font-size: 10pt;
+    }
+
+}
+
